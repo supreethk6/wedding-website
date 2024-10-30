@@ -1,0 +1,54 @@
+body {
+  font-family: 'Lato', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+}
+
+header {
+  background: #ef6c57;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Great Vibes', cursive;
+  font-size: 2.5em;
+}
+
+.content {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #ef6c57;
+}
+
+.venue, .dress-code, .schedule {
+  font-size: 1.1em;
+  margin: 15px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  background: #ef6c57;
+  color: #fff;
+}
+
+a {
+  color: #ef6c57;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
