@@ -3,52 +3,68 @@ body {
   color: #333;
   line-height: 1.6;
   background-color: #f9f9f9;
+  background-image: url('https://images.unsplash.com/photo-1602462065128-37970e4cfb25');
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-header {
-  background: #ef6c57;
+header.tangled-header {
+  background: rgba(239, 108, 87, 0.8);
   color: #fff;
   padding: 20px;
   text-align: center;
   font-family: 'Great Vibes', cursive;
-  font-size: 2.5em;
+  font-size: 3em;
+  border-bottom: 5px solid #f8e71c;
+  text-shadow: 3px 3px #633b21;
 }
 
 .content {
   max-width: 800px;
   margin: 20px auto;
   padding: 20px;
-  background: #fff;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
 }
 
 .section {
   margin-bottom: 30px;
+  font-family: 'Great Vibes', cursive;
 }
 
 h2 {
-  color: #ef6c57;
+  color: #f8e71c;
+  text-shadow: 2px 2px #633b21;
+  font-size: 2.2em;
 }
 
 .venue, .dress-code, .schedule {
-  font-size: 1.1em;
+  font-size: 1.2em;
   margin: 15px 0;
-}
-
-footer {
-  text-align: center;
+  background: rgba(248, 231, 28, 0.2);
   padding: 10px;
-  margin-top: 20px;
-  background: #ef6c57;
-  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 a {
-  color: #ef6c57;
+  color: #f8e71c;
   text-decoration: none;
+  font-weight: bold;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+footer.tangled-footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  background: rgba(239, 108, 87, 0.8);
+  color: #fff;
+  border-top: 5px solid #f8e71c;
+  text-shadow: 2px 2px #633b21;
 }
